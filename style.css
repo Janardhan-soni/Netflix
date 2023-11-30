@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    background-color:rgb(39, 39, 39);
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background-image:
+    radial-gradient(circle, rgba(29, 29, 29, 0.52), rgba(0, 0, 0, 0.73)), url(img/IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_large\ \(1\).jpg);
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20%;
+    background: transparent;
+}
+.nav img{
+    width: 140px;
+    height: 120px;
+    margin-top: -20px;
+}
+.buttons{
+    margin-left: 450px;
+    margin-top: 15px;
+    padding-top:10px ;
+    width: 200px;
+    height: 30px;
+}
+#btn1{
+    width: 100px;
+    height: 25px;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+}
+#btn2{
+    width: 70px;
+    height: 25px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: white;
+}
+.Hero-Section{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.Hero-Section h1{
+    color: white;
+    font-size: 40px;
+}
+#p1{
+    font-size: 20px;
+    margin-top: 15px;
+    color: white;
+}
+#p2{
+    font-size: 15px;
+    margin-top: 12px;
+    color: white;
+}
+.Hero-Section input{
+    width: 290px;
+    height: 40px;
+    color: white;
+    margin-top: 18px;
+    background-color: transparent;
+    border: solid 1px rgb(116, 116, 116);
+    border-radius: 3px;
+}
+.Hero-Section ::placeholder{
+    color: rgb(209, 208, 208);
+}
+.Hero-Section button{
+    width: 150px;
+    height: 42px;
+    font-size: 17px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+}
+.box2{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 480px;
+    background-color: black;
+    position: relative;
+}
+.sec1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.sec1 h1{
+    font-size: 41px;
+}
+.sec1 p{  
+    width: 500px;
+    margin-top: 10px;  
+    font-size: 21px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 180px;
+    /* margin-right: 50px; */
+}
+.sec2{
+    width: 50%;
+}
+
+.sec2 img{
+    width: 450px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 35px;
+    margin-left: 10px;
+    
+}
+.vdo{
+    
+    position: absolute;
+    z-index: 0;
+    top: 100px;
+    left:825px;
+}
+.box3{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 460px;
+    background-color: black;
+    position: relative;
+}
+.sec3{
+    width: 70%;
+}
+#first{
+    width: 450px;
+    margin-left: 150px;
+}
+.over{
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    width: 245px;
+    height: 75px;
+    margin-left: 220px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    border: solid 1.5px rgb(88, 88, 88) ;
+    border-radius: 10px;
+}
+.photo img{
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 45px;
+    height: 65px;
+}
+.line{
+    margin-left: 12px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.line p{
+    color: white;
+    font-size: 14px;
+    font-weight:500;
+}
+#colo{
+    margin-top: 2px;
+    font-size: 13px;
+    color: #0071eb;
+}
+.gift{
+    margin-left: 35px;
+    margin-top: 17px;
+}
+
+.sec4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.sec4 p{
+    color: white;
+    font-size: 20px;
+    width: 450px;
+    margin-left: -210px;
+}
+.sec4 h1{
+    color: white;
+    font-size: 45px;
+    margin-left: -50px;
+    margin-right: 50px;
+
+}
+.box4{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 460px;
+    background-color: black;
+    position: relative;
+}
+.sec5{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.sec5 h1{
+    color: white;
+    font-size: 40px;
+}
+.sec5 p{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 20px;
+    width: 360px;
+    color: white;
+}
+.sec6 img{
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    margin-top: 60px;
+}
+.vdo2{
+    position: absolute;
+    z-index: 0;
+    top:95px;
+    left: 850px;
+}
+.box5{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 460px;
+    background-color: black;
+}
+.sec7{
+    width: 50%;
+}
+.sec7 img{
+    margin-top: 60px;
+    margin-left: 140px;
+    width: 470px;
+
+}
+.sec8{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.sec8 h1{
+    color: white;
+    font-size: 40px;
+    margin-left: -200px;
+    
+    
+}
+.sec8 p{
+    width: 490px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: -100px;
+    color: white;
+}
+.box6{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    background-color: black;
+}
+.head h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.btn{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.first button{
+    width: 900px;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding-top: 22px;
+    padding-left: 20px;
+    font-size: 24px;
+    background-color:rgb(54, 53, 53);
+    border: none;
+}
+.first p{
+    margin-left: 650px;
+    margin-top: -10px;
+    font-size: 40px;
+    
+}
+.second button{
+    width: 900px;
+    height: 70px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding-top: 22px;
+    padding-left: 20px;
+    font-size: 24px;
+    background-color:rgb(54, 53, 53);
+    border: none;
+}
+.second p{
+    margin-left: 508px;
+    margin-top: -10px;
+    font-size: 40px;
+}
+.third button{
+    width: 900px;
+    height: 70px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding-top: 22px;
+    padding-left: 20px;
+    font-size: 24px;
+    background-color:rgb(54, 53, 53);
+    border: none;
+}
+.third p{
+    margin-left: 605px;
+    margin-top: -10px;
+    font-size: 40px;
+}
+.fourth button{
+    width: 900px;
+    height: 70px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding-top: 22px;
+    padding-left: 20px;
+    font-size: 24px;
+    background-color:rgb(54, 53, 53);
+    border: none;
+}
+.fourth p{
+    margin-left: 633px;
+    margin-top: -10px;
+    font-size: 40px;
+}
+
+.fifth button{
+    width: 900px;
+    height: 70px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding-top: 22px;
+    padding-left: 20px;
+    font-size: 24px;
+    background-color:rgb(54, 53, 53);
+    border: none;
+}
+.fifth p{
+    margin-left: 515px;
+    margin-top: -10px;
+    font-size: 40px;
+}
+
+.sixth button{
+    width: 900px;
+    height: 70px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding-top: 22px;
+    padding-left: 20px;
+    font-size: 24px;
+    background-color:rgb(54, 53, 53);
+    border: none;
+}
+
+.sixth p{
+    margin-left: 567px;
+    margin-top: -10px;
+    font-size: 40px;
+}
+.btn button:hover{
+    background-color:rgb(87, 86, 86);
+}
+
+.bottom{
+    width: 100%;
+    height: 170px;
+}
+.bottom p{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+}
+.searchbar input{
+    width: 291px;
+    height: 41px;
+    color: white;
+    margin-top: 18px;
+    background-color: transparent;
+    border:  solid 1px rgb(116, 116, 116);
+    border-radius: 3px;
+}
+.searchbar button{
+    width: 155px;
+    height: 42px;
+    margin-top: 18px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+}
+.footer{
+    margin-top: 5px;
+    width: 100%;
+    height: 367px;
+    background-color: black;  
+}
+
+.first1{
+    color: rgb(186, 186, 186);
+    margin-left: 140px;
+    padding-top: 50px;
+    font-size: 14px;
+}
+.first1 a{
+    color: rgb(186, 186, 186); 
+}
+.list1{
+    padding-top: 20px;
+    margin-left: 140px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list1 li{
+    margin-top: 10px;
+}
+.list1 a{
+    color: rgb(186, 186, 186);
+    font-size: 13px;
+}
+#btn{
+    margin-left: 140px;
+    margin-top: 25px;
+}
+#btn p{
+    color: rgb(186, 186, 186);
+    font-size: 12px;
+    margin-top: 21px;
+}
+
+
+
+/* position or image gradiant */
